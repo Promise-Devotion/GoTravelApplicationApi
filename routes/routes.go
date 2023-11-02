@@ -13,6 +13,7 @@ func SetupRouter() *gin.Engine {
 
 	// register all route.
 	PingRegister(route)
+	UserRuoterRegister(route)
 	// ……
 
 	return route
